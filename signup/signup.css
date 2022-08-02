@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+html{
+    background-color: #F2F5F7;
+}
+@font-face {
+    font-family: fira;
+    src: url(fonts/FiraMono-Bold.otf) format('otf'),
+      url(fonts/FiraMono-Bold.ttf) format('truetype'),
+      url(fonts/FiraMono-Bold.woff) format('woff'),
+      url(fonts/FiraMono-Bold.woff2) format('woff2');
+    }
+    .font{
+        font-family: fira;
+    }
+    .h1-top{
+        display: flex;
+        justify-content: center;
+        margin-top: 44px;
+    }
+   h1{
+    font-family: fira;
+    font-size: 26px;
+    margin-bottom:40px;
+    color: #666666;
+      } 
+      h1:hover{
+        font-family: fira;
+        font-size: 27px;
+      }
+  .All{
+    display: grid;
+    justify-content: center;
+    /* gap:15px ; */
+  }
+  label{
+    font-size: 20px;
+    color: #6B7F99 ;
+    gap: 15px;
+
+  }
+  input{
+    height: 46px;
+    width: 390px;
+    border:1px solid #C8D2DB;
+    border-radius: 5px;
+    background-color: #fff;
+
+   }
+   .input1{
+    padding-top: 0;
+   }
+   .input3{
+     margin-bottom: 20px;
+     margin-bottom: 32px;
+   }
+   .label2{
+    margin-top: 21px ;
+  }
+  .label3{
+   margin-top: 21px;
+  }
+    .dokme-sabt{
+      height: 48px;
+      width: 392px;
+      color: white;
+      background-color: #2493DF;
+      border: 1px solid #2493DF;
+      border-radius: 5px;
+    }
+    .fasele-text-input{
+     display: grid; 
+     gap: 13px;
+    }
+    p{
+      display: grid;
+      margin: 0 auto;
+      font-family:'Segoe UI' ;
+      font-size: 14px;
+      font-weight: 100px;
+      width: 392px;
+      height: 40px;
+      margin-top: 20px;
+    }
+    a{
+      text-decoration: none;    
+      color: #2493DF;
+    }
+
+    .khat{
+      display: flex;
+      margin-top: 80px;
+      justify-content: center;
+    }
+    .span{
+      color: #cccccc;
+    }
+    .spann{
+      font-size: 19px;
+      margin-top: 5px;
+    }
+    .gaf{
+     display: flex;
+    gap: 17px;
+    justify-content:center ;
+    margin-top: 39px;
+    }
+    .spa{
+     width: 119px;
+     height: 48px;
+     border-radius: 5px;
+    }
+    .google{
+      display: flex;
+      background-color: #db4437;
+      align-items: center;
+    }
+    .google img{
+      padding-left: 8px;
+      padding-top: 5px;
+    }
+    .googleText{
+      font
+    }
+    .apple{
+      background-color: #000000;
+    }
+    .facbook{
+      background-color: #4267b2;
+    }

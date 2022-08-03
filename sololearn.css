@@ -1,3 +1,107 @@
 *{
-    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+html{
+    color: #f2f5f7;
+}
+@font-face {
+    font-family: fira;
+    src: url(fonts/FiraMono-Bold.otf) format('otf'),
+      url(fonts/FiraMono-Bold.ttf) format('truetype'),
+      url(fonts/FiraMono-Bold.woff) format('woff'),
+      url(fonts/FiraMono-Bold.woff2) format('woff2');
+    }
+.font{
+    font-family: fira;
+}    
+a{
+    text-decoration: none;
+}
+/* قسمت تب بار */
+.tab-bar{
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: #1F1E28;
+    width: 100%;
+    height: 112px;
+    align-items: center;
+}
+.tab-bar-black-img{
+   padding-left: 25px;
+}
+.div-neveshte-tob-bar{
+display: flex;
+gap: 28px;
+}
+.neveshte-aval-tob-bar{
+    color: #C8D2DB;
+    font-size: 20px; 
+    padding-left: 167px;
+    font-weight: 600;
+}
+.neveshte-tob-bar{
+ color: #C8D2DB;
+ font-size: 20px;
+ font-weight: 600; 
+}
+.login-tob-bar{
+    display: flex;
+  margin-left: 44px;
+  width: 140px;
+  height: 46px;
+  border: 1px solid #2493DF;
+  border-radius: 6px;
+  color: #2493DF;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+}
+.login-tob-bar:hover{
+    background-color: white;
+}
+.register-tob-bar{
+ display: flex;
+ margin-left: 32px;
+ width: 158px;
+ height: 48px;
+ background-color: #2598E6;
+ border-radius: 7px;
+align-items:center;
+justify-content: center;
+color: white;
+font-weight: 900;
+}
+.register-tob-bar:hover{
+   background-color: #2AA7FD ;
+}
+.gesmat-tire{
+    display: grid;
+    grid-template-columns:"auto auto auto" ;
+    grid-template-rows:"auto";
+    grid-template-areas:"setarechap h1-tob-bar setarerast" ;
+    width: 100%;
+    height: 625px;
+    background-color: #1F1E28;
+}
+.gesmat-tire h1{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+.h1-tob-bar{
+    grid-area: h1-tob-bar;
+}
+.h1-tob-bar-2{
+    margin-top: -300px;
+}
+.setarerast{
+margin-right: 0px;
+ grid-area: setarerast;
+}
+.setarechap{
+margin-left: 0px;
+grid-area: setarechap;
 }

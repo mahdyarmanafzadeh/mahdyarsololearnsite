@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
 }
-html{
-    color: #f2f5f7;
+body{
+    background-color: #F2F5F7;
 }
 @font-face {
     font-family: fira;
@@ -19,7 +19,7 @@ a{
     text-decoration: none;
 }
 /* قسمت تب بار */
-.tab-bar{
+.tob-bar{
     display: flex;
     position: -webkit-sticky;
     position: sticky;
@@ -29,7 +29,7 @@ a{
     height: 112px;
     align-items: center;
 }
-.tab-bar-black-img{
+.tob-bar-black-img{
    padding-left: 25px;
 }
 .div-neveshte-tob-bar{
@@ -78,30 +78,195 @@ font-weight: 900;
    background-color: #2AA7FD ;
 }
 .gesmat-tire{
-    display: grid;
-    grid-template-columns:"auto auto auto" ;
-    grid-template-rows:"auto";
-    grid-template-areas:"setarechap h1-tob-bar setarerast" ;
     width: 100%;
     height: 625px;
     background-color: #1F1E28;
+    z-index: 100;
+}
+.gesmat-h1{
+    display: grid;
+    grid-template-columns:"auto auto auto" ;
+    grid-template-rows:"auto";
+    grid-template-areas:"setarechap h1-tob-bar setarerast";
 }
 .gesmat-tire h1{
     display: flex;
     justify-content: center;
     font-size: 80px;
+    color: #ffffff;
 }
 .h1-tob-bar{
     grid-area: h1-tob-bar;
 }
 .h1-tob-bar-2{
-    margin-top: -300px;
+    margin-top: -143px;
 }
 .setarerast{
-margin-right: 0px;
+margin-right: -18px;
  grid-area: setarerast;
 }
 .setarechap{
-margin-left: 0px;
+margin-left: 50px;
 grid-area: setarechap;
 }
+.zir-h1{
+    display: grid;
+    justify-content: center;
+    margin-top: -50px;
+}
+.matns-zir-h1 p{
+ font-size: 28px;
+ color: #ffffff ;
+}
+.dokme-start-center{
+    display: flex;
+    justify-content: center;
+}
+.dokme-start{
+    display: flex;
+    background-color: #2493DF;
+    justify-content: center;
+    width: 235px;
+    height: 48px;
+    margin-top: 35px;
+    border-radius: 2px;
+    align-items: center;
+}
+.dokme-start span{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.khat{
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+  }
+  .span{
+    color: #cccccc;
+  }
+  .spann{
+    font-size: 19px;
+    margin-top: 5px;
+  }
+  .gaf{
+   display: flex;
+  gap: 17px;
+  justify-content:center ;
+  margin-top: 39px;
+  }
+  .spa{
+   width: 119px;
+   height: 48px;
+   border-radius: 5px;
+  }
+  .google{
+    display: flex;
+    background-color: #db4437;
+
+    align-items: center;
+    cursor: pointer;
+  }
+  .google:hover{
+    background-color: #db4433;
+  }
+  .google img{
+    padding-left: 8px;
+    padding-top: 5px;
+  }
+  .googleText{
+   font-size: 13px;
+   color: #ffffff;
+   padding-left: 6px;
+   padding-top: 5px;
+  }
+  .apple{
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    cursor: pointer;
+  }
+  .apple:hover{
+    background-color: #E3E1E0;
+  }
+  .apple-img{
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+  .appleText{
+    font-size: 13px;
+    color: #000;
+    padding-left: 12px;
+    padding-top: 7px;
+    font-weight: 700;
+  }
+  .facebook{
+    background-color: #4267b2;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  .facebook:hover{
+    background: #2A4683;
+  }
+  .facebook-img{
+   padding-top: 3px;
+   padding-left: 9px;
+   width: 28px;
+   height: 29px;
+  }
+  .facebookText{
+    font-size: 13px; 
+    color: #ffffff; 
+    padding-top: 5px;
+   padding-left: 4px;
+  }
+  .div-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+  .slider{
+    display: flex;
+    width: 1222px;
+    height: 318px;
+    background-color: #ffffff;
+    border-radius: 4px;
+  }
+ .se-aks-aval{
+   display: flex;
+   justify-content: center;
+   gap: 32px;
+   margin-top: 128px;
+  }
+  .width-height-se-aks-aval{
+    height: 508px;
+    width: 386px;
+    background-color: #ffffff;
+    border-radius: 3px;
+  }
+  .do-aks-dovom{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
+    border-radius: 3px;
+  }
+  .samt-chap{
+   width: 804px;
+   height: 508px;
+   background-color: #ffffff;
+  } 
+  .samt-rast{
+    height: 508px;
+    width: 386px;
+    background-color: #ffffff;
+    border-radius: 3px;
+  }
+  .do-aks-sevom{
+    width: 100%;
+    height: 858px;
+    background-color: #ffffff;
+    margin-top: 128px;
+  }

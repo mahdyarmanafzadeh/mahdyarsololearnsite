@@ -47,7 +47,9 @@ html{
     border:1px solid #C8D2DB;
     border-radius: 5px;
     background-color: #fff;
-
+   }
+   input:focus{
+    outline-color:#C8D2DB ;
    }
    .input1{
     padding-top: 0;

@@ -41,6 +41,9 @@ html{
     gap: 15px;
 
   }
+  input:focus{
+    outline-color:#C8D2DB ;
+   }
   input{
     height: 46px;
     width: 390px;

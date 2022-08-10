@@ -21,9 +21,9 @@ a{
 /* قسمت تب بار */
 .tob-bar{
     display: flex;
-    position: sticky;
+    position:fixed;
     top: 0px;
-    background-color: #2c2b36;
+    background-color: #1F1E28;
     width: 100%;
     height: 112px;
     align-items: center;
@@ -82,11 +82,13 @@ font-weight: 900;
     background-color: #1F1E28;
 }
 .gesmat-h1{
+  margin-top: 112px;
     display: grid;
     grid-template-columns:"auto auto auto" ;
     grid-template-rows:"auto";
     grid-template-areas:"setarechap h1-tob-bar setarerast";
-}
+    justify-content: center;
+  }
 .gesmat-tire h1{
     display: flex;
     justify-content: center;
@@ -275,18 +277,21 @@ grid-area: setarechap;
     color: #6B7F99;
     margin-top: -70px;
   }
+  .img-1-3{
+    margin-top: -10px;
+  }
   .text-titr-1-3{
     font-size: 40px;
     font-weight: 700;
-    margin-top: -74px;
-    margin-left: 60px;
+    margin-top: -93px;
+    margin-left: 145px;
     color: #2D3846 ;
   }
   .text-1-3{
     font-size: 20px;
     margin: 0 auto;
     color: #6B7F99;
-    margin-top: -94px;
+    margin-top: -106px;
   }
   .do-aks-dovom{
     display: flex;
@@ -294,6 +299,9 @@ grid-area: setarechap;
     gap: 32px;
     margin-top: 32px;
     border-radius: 3px;
+  }
+  .div-texts-2-1{
+    margin-left: 43px;
   }
   .samt-chap{
    width: 804px;
@@ -316,4 +324,30 @@ grid-area: setarechap;
     background-color: #ffffff;
     margin-top: 128px;
   }
-  
+  .text-titr-2-1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #2D3846;
+    margin-top: -365px;
+    margin-left: 43px;
+  }
+  .text-2-1{
+    font-size: 20px;
+    color: #6B7F99;
+    margin-left: 43px;
+    margin-top: 15px;
+  }
+  .div-img-2-1{
+    display: flex;
+
+  }
+  .img-2-1-1{
+    width: 156px;
+    height: 46px;
+    margin-left: 200px;
+  }
+  .img-2-1-2{
+    width: 190px;
+    height: 134px;
+    padding-left: 30px;
+  }

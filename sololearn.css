@@ -28,6 +28,7 @@ a{
     height: 112px;
     align-items: center;
     z-index: 100;
+    justify-content: center;
 }
 .tob-bar-black-img{
    padding-left: 25px;
@@ -321,12 +322,7 @@ grid-area: setarechap;
     background-color: #ffffff;
     border-radius: 3px;
   }
-  .do-aks-sevom{
-    width: 100%;
-    height: 858px;
-    background-color: #ffffff;
-    margin-top: 128px;
-  }
+ 
   .text-titr-2-1{
     font-size: 40px;
     font-weight: 700;
@@ -342,7 +338,7 @@ grid-area: setarechap;
   }
   .div-img-2-1{
     display: flex;
-
+  
   }
   .img-2-1-1{
     width: 156px;
@@ -354,9 +350,106 @@ grid-area: setarechap;
     height: 134px;
     padding-left: 30px;
   }
+  .img2-2{
+    margin-left:-47px;
+    margin-top: -10px;
+  }
   .lang-box{
     width: 224px;
     height:222px;
     background-color: #EAF0F3;
     border-radius: 10px;
+  }
+  .text-sliders{
+    color: #2d3846;
+    font-size: 26px;
+    font-weight: bolder;
+    line-height: 120%;
+    margin-top: 20px;
+    margin: 10px;
+  }
+  .images-sliders{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-top: 35px;
+    margin-left: 59px;
+  }
+  .text-titr-2-2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #2D3846;
+    margin-left: 75px;
+  }
+  .text-2-2{
+    font-size: 20px;
+    color: #6B7F99;
+    margin-left: 50px;
+    margin-top: 20px; 
+  }
+  .link-text-2-2{
+    margin-top: 30px;
+    font-size: 22px;
+    color: #2493DF;
+    font-weight: 700;
+    margin-left:115px;
+  }
+  .aks-sevom{
+    width: 100%;
+    height: 1000px;
+    background-color: #ffffff;
+    margin-top: 128px;
+  }
+  .aks-sevom p{
+  font-size: 68px;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 129px; 
+  color: #2D3846;
+  }
+  .photos-texts-aks-sevom{
+    display: flex;
+    justify-content: center; 
+    margin-top: 110px;
+  }
+  .chapi{
+    display: grid;
+   justify-content: center;
+  }
+  
+  .chapi div{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 800;
+    color: #2D3846;
+    margin-top: -12px;
+  }
+  .chapi span{
+    color: #6b7f99;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .rasti{
+    display: grid;
+    justify-content: center;
+  }
+  .rasti div{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 800;
+    color: #2D3846;
+    padding-top: 10px;
+  }
+  .rasti span{
+    color: #6b7f99;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: center;
+    padding-top: 20px;
   }

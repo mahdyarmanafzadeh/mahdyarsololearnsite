@@ -370,7 +370,7 @@ a {
   background-color: #ffffff;
 }
 
-.samt-chap img {
+.samt-chap>img {
   display: flex;
   margin: 4px -50px auto auto;
 }
